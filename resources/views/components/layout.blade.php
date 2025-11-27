@@ -7,7 +7,7 @@
     <title>Talent Spot</title>
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
-<body class="bg-blackBg text-white">
+<body class="bg-blackBg text-white pb-10">
     <div class="px-10">
         <nav class="flex justify-between items-center py-4 border-b border-white/10">
             <div>logo</div>

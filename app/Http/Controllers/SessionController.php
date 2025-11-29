@@ -9,6 +9,10 @@ use Illuminate\Validation\ValidationException;
 
 class SessionController extends Controller
 {
+    public function create(){
+        return view('auth.login');
+    }
+
     public function store(Request $request)
     {
         $attributes = $request->validate([
